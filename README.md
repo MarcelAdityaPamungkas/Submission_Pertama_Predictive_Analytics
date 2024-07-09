@@ -315,10 +315,17 @@ Setiap baris pada matriks confusion merepresentasikan nilai sesungguhnya, sedang
 4. *False Negative* (FN) merupakan jumlah data yang ditebak dengan salah karena diprediksi negatif, sedangkan aslinya adalah positif. Kesalahan ini sering disebut Error Tipe 2.
 
 Selanjutnya, metrik evaluasi yang digunakan berdasarkan label-label yang diketahui dari matriks confusion ada 4, yaitu sebagai berikut.
-1. Akurasi (*Accuracy*) merupakan proporsi data yang berhasil diprediksi dengan benar dari keseluruhan data yang diprediksi. Akurasi dirumuskan sebagai <br>
+1. Akurasi (*Accuracy*) merupakan proporsi data yang berhasil diprediksi dengan benar dari seluruh data yang diprediksi. Akurasi dirumuskan sebagai <br>
+<img src = "gambar/Rumus_Akurasi.png"/> <br>
 
+2. *Precision* merupakan proporsi data positif yang berhasil diprediksi dengan benar dari seluruh data yang diprediksi positif. *Precision* dirumuskan sebagai <br>
+<img src = "gambar/Rumus_Precision.png"/> <br>
 
-2. 
+3. *Recall* merupakan proporsi data positif yang berhasil diprediksi dengan benar dari seluruh data yang aslinya positif. *Recall* dirumuskan sebagai <br>
+<img src = "gambar/Rumus_Recall.png"/> <br>
+
+4. Skor F1 (F1 *score*) merupakan rata-rata harmonik dari *precision* dan *recall* untuk mendapatkan sebuah metrik yang seimbang. Skor F1 dirumuskan sebagai <br>
+<img src = "gambar/Rumus_SkorF1.png"/> <br>
 
 ## Referensi
 1. WHO. (2024). Diakses pada 6 Juli 2024 dari https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
