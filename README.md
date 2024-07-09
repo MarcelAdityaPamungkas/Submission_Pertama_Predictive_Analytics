@@ -29,6 +29,46 @@ Berdasarkan problem statements, berikut tujuan yang ingin dicapai pada proyek in
 2. Menggunakan 4 model *machine learning* untuk memprediksi penyakit obesitas pada responden, yaitu *Extreme Gradient Boosting* (XGBoost), *Support Vector Machine* (SVM), *K-Nearest Neighbors* (KNN), dan *Random Forest*.
 3. Menggunakan confusion matrix dan f1 score pada masing-masing model *machine learning* untuk menemukan model terbaik berdasarkan akurasi tertinggi.
 
+## Data Understanding
+Dataset yang digunakan untuk memprediksi tingkat obesitas atau *overweight* pada responden diambil dari platform [kaggle](https://www.kaggle.com/) yang dipublikasikan oleh ARAVINDPCODER dengan usability score 10/10. Data ini didapat dari survei menggunakan platform web kepada orang-orang dari negara Mexico, Peru, dan Colombia, dengan usia di rentang 14 hingga 61 tahun dan dari berbagai jenis kondisi fisik.  Dataset ini terdiri dari 1 file csv.<br>
+
+### Informasi Keterangan Variabel pada Data
+Dataset ini memiliki 17 variabel dengan keterangan sebagai berikut.
+Variabel | Keterangan
+----------|----------
+Gender | Jenis kelamin responden (laki-laki atau perempuan)
+Age | Usia responden
+Height | Tinggi responden (dalam satuan meter)
+Weight | Berat responden (dalam satuan kilogram)
+family_history_with_overweight | Apakah terdapat anggota keluarga responden yang juga terkena obesitas
+FAVC | Apakah responden mengonsumsi makanan berkalori tinggi
+FCVC | Frekuensi konsumsi sayur-sayuran dalam sehari
+NCP | Frekuensi konsumsi makanan berat dalam sehari
+CAEC | Konsumsi makanan di antara makan berat
+SMOKE | Apakah responden merupakan perokok 
+CH2O | Frekuensi Konsumsi air dalam sehari (dalam satuan liter)
+SCC	| Apakah responden memantau asupan kalori
+FAF	| Frekuensi aktivitas fisik dalam seminggu (0 = Tidak pernah, 1 = 1-2 hari, 2 = 3-4 hari, 3 = 5-6 hari)
+TUE	| Waktu pemakaian gadget dalam sehari (0 = 0-3 jam, 1 = 4-6 jam, 2 = 6+ jam)
+CALC | Frekuensi konsumsi alkohol
+MTRANS | Jenis transportasi yang digunakan
+NObeyesdad | Tingkat berat badan responden
+
+### Data Cleaning
+Setelah diperiksa apakah terdapat kolom yang bernilai null, hasilnya adalah tidak ada. Sementara itu, setelah diperiksa apakah terdapat data duplikat, ditemukan 24 duplikat, sehingga data duplikat ini dihapus. Oleh karena itu, setelah dilakukan pembersihan data, diperoleh deskripsi statistik data numerik sebagai berikut. 
+| | Age |	Height | Weight | FCVC | NCP | CH2O | FAF | TUE |
+----------|----------|----------|----------|----------|----------|----------|----------|----------
+count	| 2087.000000 |	2087.000000 |	2087.000000	| 2087.000000 |	2087.000000	| 2087.000000 |	2087.000000 |	2087.000000
+mean | 24.353090 | 1.702674 | 86.858730 |	2.421466 | 2.701179 |	2.004749 | 1.012812 |	0.663035
+std	| 6.368801 | 0.093186 | 26.190847	| 0.534737 | 0.764614 | 0.608284 | 0.853475 | 0.608153
+min	| 14.000000 |	1.450000 | 39.000000 | 1.000000 | 1.000000 | 1.000000	| 0.000000 | 0.000000
+25%	| 19.915937	| 1.630178 | 66.000000 | 2.000000 | 2.697467 | 1.590922 | 0.124505 | 0.000000
+50%	| 22.847618 |	1.701584 | 83.101100 | 2.396265 |	3.000000 | 2.000000 |	1.000000 | 0.630866
+75%	| 26.000000 | 1.769491 | 108.015907 | 3.000000 | 3.000000 | 2.466193 | 1.678102 | 1.000000
+max	| 61.000000	| 1.980000 | 173.000000 | 3.000000 | 4.000000 | 3.000000 | 3.000000 | 2.000000
+
+Dari deskripsi data statistik di atas, disimpulkan bahwa responden memiliki rentang usia 14-61 tahun dengan tinggi rentang 1.45-1.98 meter dan berat rentang 39-173 kilogram. Selanjutnya, akan diperiksa apakah terdapat outlier pada data tersebut.
+
 ## Referensi
 1. WHO. (2024). Diakses pada 6 Juli 2024 dari https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
 2. Kułak, Klaudia Brygida, Izabela Magdalena Sztybór & Katarzyna Kamińska. "OBESITY - AN EPIDEMIC OF THE 21ST CENTURY – LITERATURE REVIEW", 2024, p. 1-10. Journal of Education, Health and Sport, diakses pada 7 Juli 2024.
