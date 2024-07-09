@@ -87,9 +87,38 @@ Kolom-kolom kategorikal: ['Gender', 'family_history_with_overweight', 'FAVC', 'C
 
 Pertama, kita akan memvisualisasikan kolom-kolom kategorikal untuk melihat jumlah-jumlah nilai kategorikal menggunakan bar plot.
 
-<img src = "gambar/Boxplot.png" style = "zoom : 75%;" /> <br>
+<img src = "gambar/Analisis_Kategorikal.png" style = "zoom : 75%;" /> <br>
+
+Gambar di atas dapat diinterpretasikan sebagai berikut.
+1. Dari `Plot Jumlah dari Riwayat Obesitas Dalam Keluarga`, mayoritas responden memiliki riwayat obesitas dalam keluarganya.
+2. Dari `Plot Jumlah dari Frekuensi Konsumsi Makanan Berkalori Tinggi`, mayoritas responden memakan makanan berkalori tinggi.
+3. Dari `Plot Jumlah dari Konsumsi Makanan Di Antara Makan Berat`, mayoritas responden memakan makanan seperti cemilan atau snacks di antara makan berat.
+4. Dari `Plot Jumlah dari Perokok atau Bukan`, mayoritas responden bukan perokok.
+5. Dari `Plot Jumlah dari Memantau Asupan Kalori`, mayoritas responden tidak memantau asupan kalori mereka masing-masing.
+6. Dari `Plot Jumlah dari Mengonsumsi Alkohol`, sebagian besar responden terkadang minum alkohol dan sebagian kecil responden tidak meminum alkohol.
+7. Dari `Plot Jumlah dari Jenis Transportasi yang Digunakan`, mayoritas responden menggunakan transportasi umum sebagai sarana transportasi mereka
+8. Dari `Plot Jumlah dari Tingkat Berat Badan`, persebaran tingkat level berat badan cukup merata, dengan Obesitas tingkat 1 merupakan jumlah yang paling banyak dialami responden.
+
+Karena fokus pada analisis adalah mendeteksi penyakit obesitas, maka kita akan melihat lebih detail mengenai `Jumlah dari Tingkat Berat Badan`. Kita akan mencari distribusi persentase tingkat berat badan menggunakan pie chart.
+
+<img src = "gambar/Pie_Chart_Tingkat_Berat_Badan.png" style = "zoom : 75%;" /> <br>
+
+Dari gambar di atas, total responden yang mengalami berat badan berlebih maupun obesitas berjumlah $73.7\%$, dengan $46.5\%$ di antaranya mengalami obesitas.
+
+Selanjutnya, kita akan memvisualisasikan kolom-kolom numerikal untuk melihat persebaran nilai menggunakan histogram.
+
+<img src = "gambar/Analisis_Numerikal.png" style = "zoom : 75%;" /> <br>
+
+Gambar di atas dapat diinterpretasikan sebagai berikut.
+1. Plot Histogram dari `Konsumsi Air Harian`, `Frekuensi Aktivitas Fisik`, `Lama Pemakaian Gadget` tidak berdistribusi normal.
+2. Plot Histogram dari `Tinggi Badan`, `Frekuensi Konsumsi Sayur-Sayuran`, `Frekuensi Konsumsi Makanan Berat` cukup berdistribusi normal.
+3. Plot Histogram dari `Usia` dan `Berat Badan` memiliki distribusi data yang miring ke kanan. Artinya, mayoritas data memiliki nilai di bawah rata-rata.
 
 ### Multivariate Analysis
+
+#### 1. Membandingkan Tingkat Berat Badan Pada Setiap Jenis Kelamin
+
+
 
 ## Referensi
 1. WHO. (2024). Diakses pada 6 Juli 2024 dari https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
