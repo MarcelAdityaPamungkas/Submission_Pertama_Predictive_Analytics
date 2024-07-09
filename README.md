@@ -71,7 +71,7 @@ Dari deskripsi data statistik di atas, disimpulkan bahwa responden memiliki rent
 
 <img src = "gambar/Boxplot.png" style = "zoom : 75%;" /> <br>
 
-Berikut adalah interpretasi dari 8 boxplot di atas.
+Interpretasi:
 1. Pada kolom `Age`, dapat dilihat bahwa mayoritas responden berusia di rentang 20-30 tahun. Terdapat beberapa outlier, yaitu usia 50 tahun ke atas. Meski demikian, outlier ini tidak akan dihapus karena sangat memungkinkan seseorang berusia 50 tahun ke atas.
 2. Pada kolom `Weight`, dapat dilihat bahwa mayoritas responden memiliki berat badan di rentang 60-110 kilogram. Terdapat 1 outlier, yaitu responden dengan berat badan 173 kilogram. Meski demikian, outlier ini tidak akan dihapus karena sangat memungkinkan seseorang memiliki berat badan 173 kilogram.
 3. Pada kolom `Height`, dapat dilihat bahwa mayoritas responden memiliki tinggi badan di rentang 1.6-1.8 meter. Terdapat 1 outlier, yaitu responden dengan tinggi badan 1.98 meter. Meski demikian, outlier ini tidak akan dihapus karena sangat memungkinkan seseorang memiliki tinggi badan 1.98 meter.
@@ -89,7 +89,7 @@ Pertama, kita akan memvisualisasikan kolom-kolom kategorikal untuk melihat jumla
 
 <img src = "gambar/Analisis_Kategorikal.png" style = "zoom : 75%;" /> <br>
 
-Gambar di atas dapat diinterpretasikan sebagai berikut.
+Interpretasi:
 1. Dari `Plot Jumlah dari Riwayat Obesitas Dalam Keluarga`, mayoritas responden memiliki riwayat obesitas dalam keluarganya.
 2. Dari `Plot Jumlah dari Frekuensi Konsumsi Makanan Berkalori Tinggi`, mayoritas responden memakan makanan berkalori tinggi.
 3. Dari `Plot Jumlah dari Konsumsi Makanan Di Antara Makan Berat`, mayoritas responden memakan makanan seperti cemilan atau snacks di antara makan berat.
@@ -109,7 +109,7 @@ Selanjutnya, kita akan memvisualisasikan kolom-kolom numerikal untuk melihat per
 
 <img src = "gambar/Analisis_Numerikal.png" style = "zoom : 75%;" /> <br>
 
-Gambar di atas dapat diinterpretasikan sebagai berikut.
+Interpretasi:
 1. Plot Histogram dari `Konsumsi Air Harian`, `Frekuensi Aktivitas Fisik`, `Lama Pemakaian Gadget` tidak berdistribusi normal.
 2. Plot Histogram dari `Tinggi Badan`, `Frekuensi Konsumsi Sayur-Sayuran`, `Frekuensi Konsumsi Makanan Berat` cukup berdistribusi normal.
 3. Plot Histogram dari `Usia` dan `Berat Badan` memiliki distribusi data yang miring ke kanan. Artinya, mayoritas data memiliki nilai di bawah rata-rata.
@@ -117,6 +117,12 @@ Gambar di atas dapat diinterpretasikan sebagai berikut.
 ### Multivariate Analysis
 
 #### 1. Membandingkan Tingkat Berat Badan Pada Setiap Jenis Kelamin
+
+<img src = "gambar/Barplot_1.png" style = "zoom : 50%;" /> <br>
+
+Interpretasi:
+1. Laki-laki lebih banyak memiliki berat badan berlebih tingkat 2 dan obesitas tingkat 1 dibandingkan perempuan.
+2. Hampir seluruh obesitas tingkat 2 dialami oleh laki-laki, sedangkan hampir seluruh obesitas tingkat 3 dialami oleh perempuan.
 
 
 
