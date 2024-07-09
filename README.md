@@ -329,10 +329,56 @@ Selanjutnya, metrik evaluasi yang digunakan berdasarkan label-label yang diketah
 
 ### Penerapan Matriks Confusion, Akurasi, dan Skor f1
 
-Berikut merupakan matriks confusion beserta skor f1 dari model XGBoost
+#### 1. Model XGBoost
+
+Berikut merupakan matriks confusion, akurasi, dan skor f1 dari model XGBoost
 
 <img src = "gambar/Confusion_Matrix_1.png"/> <br>
 
+Dari gambar di atas, terdapat 11 data yang diprediksi salah pada obesitas tingkat 2 dan 7 data yang diprediksi salah pada obesitas tingkat 3. Diperoleh skor F1 nya adalah 0.93 dengan akurasi tepatnya adalah 0.933014 atau ≈93.30%.
+
+#### 2. Model SVM
+
+Berikut merupakan matriks confusion, akurasi, dan skor f1 dari model SVM
+
+<img src = "gambar/Confusion_Matrix_2.png"/> <br>
+
+Dari gambar di atas, terdapat 19 data yang diprediksi salah pada obesitas tingkat 2 dan 14 data yang diprediksi salah pada obesitas tingkat 3. Diperoleh skor F1 nya adalah 0.85 dengan akurasi tepatnya adalah 0.849282 atau ≈84.93%.
+
+#### 3. Model KNN
+
+Berikut merupakan matriks confusion, akurasi, dan skor f1 dari model KNN
+
+<img src = "gambar/Confusion_Matrix_3.png"/> <br>
+
+Dari gambar di atas, terdapat 12 data yang diprediksi salah pada obesitas tingkat 2 dan 14 data yang diprediksi salah pada obesitas tingkat 3. Diperoleh skor F1 nya adalah 0.85 dengan akurasi tepatnya adalah 0.846889 atau ≈84.69%.
+
+#### 4. Model *Random Forest*
+
+Berikut merupakan matriks confusion, akurasi, dan skor f1 dari model *Random Forest*
+
+<img src = "gambar/Confusion_Matrix_4.png"/> <br>
+
+Dari gambar di atas, terdapat 11 data yang diprediksi salah pada obesitas tingkat 2 dan 6 data yang diprediksi salah pada obesitas tingkat 3. Diperoleh skor F1 nya adalah 0.94 dengan akurasi tepatnya adalah 0.942584 atau ≈94.26%.
+
+#### Hasil Evaluasi
+Dari seluruh akurasi yang diketahui dari keempat model, dibentuk bar plot untuk melihat perbandingan nilai akurasi model sebagai berikut. 
+
+<img src = "gambar/Barplot_4.png"/> <br>
+
+Berdasarkan gambar di atas dan evaluasi masing-masing model untuk mengetahui skor akurasi, skor F1, dan jumlah kesalahan klasifikasi pada masing-masing model, didapat model *Random Forest* merupakan model terbaik karena memiliki skor akurasi dan skor F1 tertinggi, serta jumlah kesalahan klasifikasi yang paling sedikit, terutama pada obesitas. 
+
+## Kesimpulan
+1. Berdasarkan data yang diperoleh, sekitar $73.7\%$ dari seluruh responden mengalami *overweight* atau obesitas atau *overweight*, dengan $46.5\%$ di antaranya mengalami obesitas.
+2. Jenis kelamin yang berbeda memiliki tingkat obesitas yang berbeda. Dari data yang diperoleh, mayoritas laki-laki mengalami *overweight* tingkat 2, obesitas tingkat 1, dan obesitas tingkat 2. Sedangkan mayoritas perempuan mengalami obesitas tingkat 3.
+3. Faktor-faktor yang memengaruhi berat badan seseorang adalah tinggi badan, usia, frekuensi konsumsi sayur-sayuran dalam sehari, dan frekuensi konsumsi air dalam sehari.
+4. Seluruh penyandang obesitas tingkat 3 memiliki kesamaan dalam beberapa faktor, yaitu
+   * Menggunakan transportasi umum sebagai sarana transportasi
+   * Terkadang mengonsumsi alkohol
+   * Melakukan aktivitas fisik kurang dari 4 hari dalam seminggu.
+   * Makan berat sebanyak 3 kali dalam sehari
+   * Berusia di bawah 30 tahun. 
+5. Setelah menguji data menggunakan 4 model *machine learning*, yaitu ***Extreme Gradient Boosting* (XGBoost)**, ***Support Vector Machine* (SVM)**, ***K-Nearest Neighbors* (KNN)**, dan ***Random Forest*** untuk mendeteksi obesitas, diperoleh model *Random Forest* merupakan model terbaik dibandingkan model lainnya berdasarkan skor akurasi, skor F1, dan jumlah kesalahan klasifikasi yang paling sedikit.
 
 ## Referensi
 1. WHO. (2024). Diakses pada 6 Juli 2024 dari https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
