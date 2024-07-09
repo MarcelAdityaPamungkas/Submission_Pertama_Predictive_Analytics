@@ -327,6 +327,13 @@ Selanjutnya, metrik evaluasi yang digunakan berdasarkan label-label yang diketah
 4. Skor F1 (F1 *score*) merupakan rata-rata harmonik dari *precision* dan *recall* untuk mendapatkan sebuah metrik yang seimbang. Skor F1 dirumuskan sebagai <br>
 <img src = "gambar/Rumus_SkorF1.png"/> <br>
 
+### Penerapan Matriks Confusion, Akurasi, dan Skor f1
+
+Berikut merupakan matriks confusion beserta skor f1 dari model XGBoost
+
+<img src = "gambar/Confusion_Matrix_1.png"/> <br>
+
+
 ## Referensi
 1. WHO. (2024). Diakses pada 6 Juli 2024 dari https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
 2. Kułak, Klaudia Brygida, Izabela Magdalena Sztybór & Katarzyna Kamińska. "OBESITY - AN EPIDEMIC OF THE 21ST CENTURY – LITERATURE REVIEW", 2024, p. 1-10. Journal of Education, Health and Sport, diakses pada 7 Juli 2024.
