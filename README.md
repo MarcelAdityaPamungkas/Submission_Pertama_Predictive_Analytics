@@ -2,7 +2,7 @@
 
 ## Domain Proyek
 
-Obesitas maupun berat badan berlebih merupakan penyakit yang dapat didefinisikan sebagai penumpukan lemak berlebih pada badan seseorang. Obesitas dapat terjadi pada seluruh manusia dari jenis kelamin apapun dan umur berapapun. Menurut World Health Organization (WHO), pada tahun 2022, sekitar 2.5 miliar orang di dunia menderita berat badan berlebih, dengan 890 juta di antaranya dikategorikan sebagai obesitas. Tingkat berat badan seseorang diukur menggunakan *Body Mass Index* (BMI). Obesitas dapat disebabkan oleh beberapa faktor, seperti makan-makanan berkalori tinggi dalam waktu singkat, kurang melakukan aktivitas fisik, perubahan perasaan yang menyebabkan nafsu makan menaik, atau kelainan hormon. Obesitas dapat siklasifikasi menjadi 4, yaitu berat badan berlebih (*overweight*), obesitas tingkat 1, obesitas tingkat 2, dan obesitas tingkat 3. Jika dibiarkan, obesitas dapat mengganggu aktivitas sehari-hari, seperti sulit untuk bergerak maupun beraktivitas berat. Tak hanya itu, obesitas juga berpotensi menimbulkan penyakit lainnya yang berbahaya, seperti Diabetes Mellitus tipe 2, jantung koronen, maupun hipertensi. Tentu akan lebih baik jika obesitas dapat dideteksi sedini mungkin.<br>
+Obesitas maupun berat badan berlebih merupakan penyakit yang dapat didefinisikan sebagai penumpukan lemak berlebih pada badan seseorang. Obesitas dapat terjadi pada seluruh manusia dari jenis kelamin apapun dan umur berapapun. Menurut World Health Organization (WHO), pada tahun 2022, sekitar 2.5 miliar orang di dunia menderita berat badan berlebih, dengan 890 juta di antaranya dikategorikan sebagai obesitas. Tingkat berat badan seseorang diukur menggunakan *Body Mass Index* (BMI). Obesitas dapat disebabkan oleh beberapa faktor, seperti makan-makanan berkalori tinggi dalam waktu singkat, kurang melakukan aktivitas fisik, perubahan perasaan yang menyebabkan nafsu makan menaik, atau kelainan hormon. Obesitas dapat diklasifikasi menjadi 4, yaitu berat badan berlebih (*overweight*), obesitas tingkat 1, obesitas tingkat 2, dan obesitas tingkat 3. Jika dibiarkan, obesitas dapat mengganggu aktivitas sehari-hari, seperti sulit untuk bergerak maupun beraktivitas berat. Tak hanya itu, obesitas juga berpotensi menimbulkan penyakit lainnya yang berbahaya, seperti Diabetes Mellitus tipe 2, jantung koronen, maupun hipertensi. Tentu akan lebih baik jika obesitas dapat dideteksi sedini mungkin.<br>
 
 Pada zaman sekarang, teknologi telah berkembang pesat, salah satunya adalah teknologi *machine learning*. Hingga sekarang, *machine learning* telah digunakan ke dalam berbagai bidang, salah satunya bidang kesehatan. Dengan seiringnya perkembangan *machine learning*, sekarang *machine learning* mampu mendeteksi berbagai macam penyakit dengan berbagai parameter maupun faktor yang diberikan, salah satunya adalah mendeteksi obesitas. Oleh karena itu, pada proyek ini, penulis ingin memanfaatkan *machine learning* untuk mendeteksi tingkat berat badan pada seseorang, terutama yang didiagnosis mengalami obesitas agar dapat segera dicegah maupun diobati. Penulis ingin memprediksi penyakit obesitas pada responden menggunakan 4 model, yaitu *Extreme Gradient Boosting* (XGBoost), *Support Vector Machine* (SVM), *K-Nearest Neighbors* (KNN), dan *Random Forest*. Penulis menggunakan dataset dari Kaggle yang dapat diakses pada link [berikut](https://www.kaggle.com/datasets/aravindpcoder/obesity-or-cvd-risk-classifyregressorcluster/data).
 
@@ -134,7 +134,7 @@ Karena fokus pada analisis adalah mendeteksi penyakit obesitas, maka kita akan m
 
 <img src = "gambar/Pie_Chart_Tingkat_Berat_Badan.png"/> <br>
 
-Dari gambar di atas, total responden yang mengalami berat badan berlebih maupun obesitas berjumlah $73.7\%$, dengan $46.5\%$ di antaranya mengalami obesitas.
+Dari gambar di atas, total responden yang mengalami berat badan berlebih maupun obesitas berjumlah 73.7%, dengan 46.5% di antaranya mengalami obesitas.
 
 Selanjutnya, kita akan memvisualisasikan kolom-kolom numerikal untuk melihat persebaran nilai menggunakan histogram.
 
@@ -172,7 +172,7 @@ Interpretasi:
 2. Penyandang obesitas tingkat 1 makan berat sebanyak rentang 1-3 kali dalam sehari.
 3. Seluruh responden selain poin nomor 1 dan 2 memiliki jumlah makan berat yang bervariasi, dari rentang 1-4 kali makan dalam sehari.
 
-#### 4. Membandingkan Tingkat Berat Badan dengan Jumlah Makan Berat
+#### 4. Membandingkan Tingkat Berat Badan dengan Frekuensi Aktivitas Fisik
 
 <img src = "gambar/Strip_Plot_3.png"/> <br>
 
