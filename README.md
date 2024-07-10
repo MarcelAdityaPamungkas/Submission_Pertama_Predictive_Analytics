@@ -369,7 +369,7 @@ Dari seluruh akurasi yang diketahui dari keempat model, dibentuk bar plot untuk 
 Berdasarkan gambar di atas dan evaluasi masing-masing model untuk mengetahui skor akurasi, skor F1, dan jumlah kesalahan klasifikasi pada masing-masing model, didapat model *Random Forest* merupakan model terbaik karena memiliki skor akurasi dan skor F1 tertinggi, serta jumlah kesalahan klasifikasi yang paling sedikit, terutama pada obesitas. 
 
 ## Kesimpulan
-1. Berdasarkan data yang diperoleh, sekitar 73.7% dari seluruh responden mengalami *overweight* atau obesitas atau *overweight*, dengan 46.5% di antaranya mengalami obesitas.
+1. Berdasarkan data yang diperoleh, sekitar 73.7% dari seluruh responden mengalami *overweight* atau obesitas, dengan 46.5% di antaranya mengalami obesitas.
 2. Jenis kelamin yang berbeda memiliki tingkat obesitas yang berbeda. Dari data yang diperoleh, mayoritas laki-laki mengalami *overweight* tingkat 2, obesitas tingkat 1, dan obesitas tingkat 2. Sedangkan mayoritas perempuan mengalami obesitas tingkat 3.
 3. Faktor-faktor yang memengaruhi berat badan seseorang adalah tinggi badan, usia, frekuensi konsumsi sayur-sayuran dalam sehari, dan frekuensi konsumsi air dalam sehari.
 4. Seluruh penyandang obesitas tingkat 3 memiliki kesamaan dalam beberapa faktor, yaitu
